@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    background: blue;
+}
+
+.navbar > div{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items li{
+    list-style-type: none;
+    padding: 1rem;
+    color: aliceblue;
+}
+
+.nav-items li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.nav-items a{
+    text-decoration: none;
+}
+
+/* reusable h2 */
+h2{
+    text-align: center;
+}
+
+.hero{
+    background: url(./images/sunrise.jpg);
+    background-repeat: repeat;
+    height: 530px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-items{
+    width: 40%;
+    background: black;
+    opacity: 0.5;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-me{
+    width: 40%;
+    
+}
+
+.webd-skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.front-end{
+    background: lightgreen;
+    padding: 1rem;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 5px 10px green;
+}
+.back-end{
+    background: rgb(235, 235, 130);
+    padding: 1rem;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgb(234, 234, 55);
+}
+
+.projects{
+    padding: 10px;
+}
+
+.card-list{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.card{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid yellowgreen;
+    box-shadow: 5px -5px lightgrey;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.card > a >img{
+    max-height: 450px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details{
+    width: 40%;
+    background: black;
+    opacity: 0.5;
+    color: aliceblue;
+    text-align: center;
+}
+
+footer{
+    background: blue;
+    color: aliceblue;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon{
+    padding: 1rem;
+}
+
+
+
