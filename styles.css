@@ -168,14 +168,20 @@ footer{
 @media(max-width:768px){
 
     .container{
-        width: 95%;
+        width: 90%;
+    }
+
+    .navbar > div{
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center;
     }
     .nav-brand{
         display: none;  
     }
     .nav-items{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
     }
     .nav-items li{
         padding: 0.5rem;
