@@ -175,7 +175,7 @@ footer{
     }
     .nav-items{
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
     }
     .nav-items li{
         padding: 0.5rem;
